@@ -1,0 +1,14 @@
+# ninja log v6
+191	218	7633415909399132	CMakeFiles/StudentManagementSystem.dir/CXX.dd	40fa8cb152d2a318
+3	337	7633417752322329	build.ninja	4376aaef531a8727
+18	191	7633415907676091	CMakeFiles/StudentManagementSystem.dir/main.cpp.obj.ddi	e2f9b9ddbbf04bcf
+220	810	7633415909679990	CMakeFiles/StudentManagementSystem.dir/main.cpp.obj	173dbdf7b25c22fd
+191	218	7633415909399132	C:/Users/Haris/CLionProjects/StudentManagementSystem/cmake-build-debug/CMakeFiles/StudentManagementSystem.dir/CXXModules.json	40fa8cb152d2a318
+191	218	7633415909399132	CMakeFiles/StudentManagementSystem.dir/main.cpp.obj.modmap	40fa8cb152d2a318
+50	295	7633086795530820	CMakeFiles/StudentManagementSystem.dir/SMS_With_Encapsulation.cpp.obj.ddi	e1a506853d97946c
+811	918	7633415915594842	StudentManagementSystem.exe	50cf5ebd8aa390
+184	220	7633087283055395	CMakeFiles/StudentManagementSystem.dir/SMS_With_Encapsulation.cpp.obj.modmap	a560c92734d4912f
+385	1487	7633086798881530	CMakeFiles/StudentManagementSystem.dir/SMS_With_Encapsulation.cpp.obj	2c22023477aa61e5
+46	233	7633401877469206	CMakeFiles/StudentManagementSystem.dir/SMSWithEncapsulation/SMS_With_Encapsulation.cpp.obj.ddi	26f26201d9f8e7d
+191	218	7633415909399132	CMakeFiles/StudentManagementSystem.dir/SMSWithEncapsulation/SMS_With_Encapsulation.cpp.obj.modmap	40fa8cb152d2a318
+312	1181	7633401880127462	CMakeFiles/StudentManagementSystem.dir/SMSWithEncapsulation/SMS_With_Encapsulation.cpp.obj	b07ccaf7c9036f9

@@ -1,0 +1,11 @@
+{
+"rules": [
+{
+"primary-output": "CMakeFiles/StudentManagementSystem.dir/SMS_With_Encapsulation.cpp.o",
+"requires": [
+]
+}
+],
+"version": 0,
+"revision": 0
+}

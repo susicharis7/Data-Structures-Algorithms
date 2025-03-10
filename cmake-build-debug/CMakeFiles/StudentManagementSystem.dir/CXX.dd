@@ -1,0 +1,5 @@
+ninja_dyndep_version = 1.0
+build CMakeFiles/StudentManagementSystem.dir/main.cpp.obj: dyndep
+
+build CMakeFiles/StudentManagementSystem.dir/SMSWithEncapsulation/SMS_With_Encapsulation.cpp.obj: dyndep
+

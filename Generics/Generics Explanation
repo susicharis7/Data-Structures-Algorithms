@@ -1,0 +1,25 @@
+template<typename T>
+- ovo znaci da "T" radi sa bilo kojim tipom (int,string,double)
+- umjesto da pisemo posebne klase za svaki tip, pisemo jednu genericku klasu, i kad napravimo objekat,
+    zamjenimo T konkretnim tipom.
+
+✅ Zašto pišemo template<typename T> iznad klase?
+- Zato sto definisemo klasu koja zavisi od nekog generickog tipa T
+- Bez toga, compiler ne zna sta je T
+- sa "template<typename T>" govorimo compileru : T je genericki tip
+
+✅ Zašto pišemo template<typename T> iznad metoda?
+- Zato sto su metode dio sablonske klase, pa da bi compiler znao sta je T, mora to da pisemo
+    svaki put kad pisemo van klase (out-of-line definition)
+
+✅ Šta je .tpp fajl?
+- (template implementation file) je fajl u kojem drzimo implementaciju template klasa i metoda
+- koristimo ga da odvojimo deklaraciju (.h) i implementaciju (.tpp) za template klase
+
+.h - DEKLARACIJA (template ide samo iznad klase)
+.tpp - IMPLEMENTACIJA (svugdje ide template da zna sa cim radi)
+
+✅ Zašto SVAKI PUT template <typename T>?
+- Zato sto van klase (u .tpp fajlu), kompajler vise ne zna šta je T ako mu ne kazemo.
+- On NE pamti da je to bilo template ako mu ne ponovimo.
+
