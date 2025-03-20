@@ -1,0 +1,32 @@
+/*
+    int a = 10;
+    int *p = &a;
+
+    cout << *p << endl;
+
+    // References
+
+    int u = 15;
+    int &s = u;
+
+    cout << u << endl;
+    cout << s << endl;
+    s = 20;
+    cout << u << endl;
+    */
+
+
+    /*
+    int a = 42;
+    int *p = &a;
+    int **pp = &p;
+
+    cout << "Value via pointer: " << *p << endl;
+    cout << "Value via double pointer: " << **pp << endl;
+    */
+
+    int arr[] = {1,2,3,4};
+    int *p = arr;
+    cout << "First element: " << *p << endl;
+    p++; // Move to the next element
+    cout << "Second element: " << *p << endl;

@@ -1,0 +1,32 @@
+/* #include <iostream>
+using namespace std;
+
+class Student {
+private:
+    int* gpa;
+public:
+    Student(int value) {
+        gpa = new int(value);
+        cout << "Kreiran studentov gpa: " << *gpa << endl;
+    }
+
+    ~Student() {
+        delete gpa;
+        cout << "Obrisan Student i memorija oslobodjena! " << endl;
+    }
+};
+
+int main() {
+    Student* s2 = new Student(9.5);
+    delete s2;
+
+
+     Student* s2
+     - kreiramo objekat "s2" na heapu, a "s2" cuva adresu tog objekta
+     - ta heap memorija traje dok ne napisemo "delete" - objekat ne nestaje automatski kao na stacku
+
+
+} */
+
+
+------------------------------------------------------------------------------------------------------------------------
