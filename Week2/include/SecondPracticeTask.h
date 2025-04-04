@@ -18,7 +18,14 @@ class SecondPracticeTask {
       SecondPracticeTask();
       ~SecondPracticeTask();
       void add_to_front(Data value);
+      void remove_from_front();
       void print() const;
+
+      void add_to_back(Data value);
+      void remove_from_back();
+
+      void reverse();
+
 };
 
 void test_list();
