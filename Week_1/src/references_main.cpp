@@ -14,4 +14,7 @@ int main() {
   ref = b; // 'b' to 'a' - but 'ref' still refers to 'a'
   cout << "Reference : " << ref << endl;
 
+  // pointers can be explicitly set to null
+  int* sp = nullptr;
+
 };
