@@ -11,12 +11,15 @@ private:
   T* gpa;
 
 public:
-  Student(const std::string& name, T gpa); // Parametrizovani konstruktor
+  Student(const std::string& name, T gpa);
+  // 1~Destructor
   ~Student();
+  // 2~Copy Constructor
+  Student(const Student& other);
 
   void print() const;
 };
 
-#include "DestructorEx.tpp"
+#include "RuleOfFive.tpp"
 
 #endif
