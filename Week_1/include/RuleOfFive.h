@@ -18,6 +18,8 @@ public:
   Student(const Student& other);
   // 3~Copy Assignment Operator
   Student& operator=(const Student& other);
+  // 4~Move Constructor
+  Student(Student&& other) noexcept;
 
   void print() const;
 };

@@ -37,6 +37,17 @@ Student<T>& Student<T>::operator=(const Student& other) {
     return *this; // we give back reference to current object
 };
 
+// 4~move constructor
+template <typename T>
+Student<T>::Student(Student<T>&& other) noexcept {
+    name = move(other.name);
+    gpa = other.gpa;
+
+    other.gpa = nullptr;
+    cout << "Move Constructor: " << name << " moved\n";
+};
+
+
 
 
 template <typename T>

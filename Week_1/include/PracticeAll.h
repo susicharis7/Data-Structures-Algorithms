@@ -13,6 +13,9 @@ class StudentPractice {
     StudentPractice(string name, T gpa);
     ~StudentPractice();
     StudentPractice(const StudentPractice& other);
+    StudentPractice& operator=(const StudentPractice& other);
+    StudentPractice(StudentPractice&& other) noexcept;
+
 
     void print() const;
 
