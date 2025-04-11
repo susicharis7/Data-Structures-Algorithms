@@ -38,6 +38,13 @@ int main() {
   Student<double> mc2 = move(mc1);
   mc2.print();
 
+  // Move Assignment Operator
+  cout << "\nTesting Move Assignment Operator\n";
+  Student<double> mao1("Sumeja",9.8);
+  Student<double> mao2("Haro",9.9);
+  mao2 = move(mao1);
+  mao2.print();
+
 
   return 0;
 };

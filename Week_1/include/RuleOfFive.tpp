@@ -47,6 +47,21 @@ Student<T>::Student(Student<T>&& other) noexcept {
     cout << "Move Constructor: " << name << " moved\n";
 };
 
+// 5~move assignment
+template <typename T>
+Student<T>& Student<T>::operator=(Student<T>&& other) noexcept {
+    if (this == &other) return *this;
+
+    delete gpa;
+    name = move(other.name);
+    gpa = other.gpa;
+
+    other.gpa = nullptr;
+
+    std::cout << "Move Assignment: " << name << " move assigned\n";
+
+    return *this;
+};
 
 
 
