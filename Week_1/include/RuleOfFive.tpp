@@ -24,6 +24,19 @@ Student<T>::Student(const Student& other) {
     cout << "Copy constructor: " << name << " copied.\n";
 };
 
+// 3~copy assignment operator
+template <typename T>
+Student<T>& Student<T>::operator=(const Student& other) {
+    if (this == &other) return *this; // self-assignment check
+
+    delete gpa;
+    name = other.name;
+    gpa = new T(*other.gpa);
+
+    cout << "Copy Assignment instantiated: " << name << endl;
+    return *this; // we give back reference to current object
+};
+
 
 
 template <typename T>

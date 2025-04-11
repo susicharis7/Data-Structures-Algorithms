@@ -16,6 +16,8 @@ public:
   ~Student();
   // 2~Copy Constructor
   Student(const Student& other);
+  // 3~Copy Assignment Operator
+  Student& operator=(const Student& other);
 
   void print() const;
 };

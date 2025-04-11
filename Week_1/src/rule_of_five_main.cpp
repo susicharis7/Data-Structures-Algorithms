@@ -18,6 +18,16 @@ int main() {
   Student<double> s1copy = s1;
   s1copy.print();
 
+  // Copy Assignment Operator
+  cout << "\nTesting Copy Assignment\n";
+  Student<double> cao1("Semha",8.5);
+  cao1.print();
+
+  Student<double> cao2("Harke",10);
+  cao1 = cao2; // cao1 is becoming cao2
+  cao1.print();
+
+
   return 0;
 };
 
