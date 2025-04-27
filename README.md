@@ -1,4 +1,4 @@
-# Data Structures & Algorithms in C++
+# Data Structures & Algorithms 
 
 This repository contains implementations and learning notes on fundamental data structures and algorithms using C++. The goal is to develop a solid foundation in both theory and practice, with clean and well-documented code suitable for interviews, projects, and deeper CS understanding.
 
@@ -41,7 +41,7 @@ Each topic is organized into its own folder, typically containing:
 
 - Strengthen algorithmic thinking and implementation skills
 - Build reusable and clean C++ components
-- Prepare for technical interviews and problem-solving tasks
+- Gain a deeper understanding of how memory works internally, including data storage, retrieval, and manipulation
 
 ---
 
